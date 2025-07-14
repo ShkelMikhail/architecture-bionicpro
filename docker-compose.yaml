@@ -50,7 +50,5 @@ services:
       KEYCLOAK_URL: http://keycloak:8080
       KEYCLOAK_SECRET: oNwoLQdvJAvRcL89SydqCWCe5ry1jMgq
       PORT: 8000
-    env_file:
-      - ./backend/.env
     depends_on:
       - keycloak
